@@ -1,0 +1,19 @@
+
+
+.banner {
+  background-image: url("../../images/190-1909531_kh3-kingdom-hearts-3.png");
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.banner p {
+  font-size: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: white;
+}
+
+.banner h1{
+  color: white;}

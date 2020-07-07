@@ -1,0 +1,27 @@
+  @import url()
+/* link components */
+  @import url('component/container.css');
+  @import url('component/avatar.css');
+  @import url('component/button-text.css');
+  @import url('component/banner.css');
+  @import url('component/card.css');
+ * {
+  margin: 0px;
+  padding: 0px;
+ }
+
+ body {
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 20px;
+ }
+
+ h1, h2, h3{
+   font-family: 'Notable', sans-serif;
+ }
+
+h1 {
+	font-size
+}
+ a {
+   text-decoration: none;
+ }

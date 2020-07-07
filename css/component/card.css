@@ -1,0 +1,70 @@
+.card-white {
+  background-color: white;
+  width: 250px;
+  padding: 10px;
+  box-shadow: 10px 5px 5px grey;
+}
+
+.card-white-image1 {
+  background: url("../../images/Shay.jpg");
+  background-size: cover;
+  height: 200px;
+  margin: 0 0 10px 0;
+  border-radius: 10px;
+}
+
+.card-white-image2 {
+  background: url("../../images/london.jpg");
+  background-size: cover;
+  height: 200px;
+  margin: 0 0 10px 0;
+  border-radius: 10px;
+}
+
+.card-white-image3 {
+  background: url("../../images/grand_canyon.jpg");
+  background-size: cover;
+  height: 200px;
+  margin: 0 0 10px 0;
+  border-radius: 10px;
+}
+
+.card-props {
+  color: grey;
+}
+
+.card-description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-user {
+  color: grey;
+}
+
+.card-white:hover .btn {
+  opacity: 1;
+  transition: 1s;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.card-user {
+  display: flex;
+  align-items: center;
+}
+
+.card-user a{
+  color: grey;
+  margin-left: 5px;
+}
+
+@media only screen and (min-width: 600px) {
+  .cards {
+
+}
